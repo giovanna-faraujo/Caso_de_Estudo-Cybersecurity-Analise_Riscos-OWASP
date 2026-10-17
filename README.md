@@ -4,8 +4,6 @@
 
 Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP**, da Cisco Networking Academy (NetAcad). A proposta é conhecer riscos de segurança em aplicações web, entender como vulnerabilidades podem ser exploradas e identificar medidas de prevenção.
 
-A documentação reúne respostas de estudo para três atividades: análise de categorias do **OWASP Top 10 (2021)**, pesquisa de vulnerabilidades e investigação de técnicas de ataque. **Não foram realizados testes de invasão, exploração prática ou auditoria de sistemas.**
-
 ---
 
 ## Objetivos de aprendizagem
@@ -25,7 +23,7 @@ A documentação reúne respostas de estudo para três atividades: análise de c
 
 **Exemplo:** se uma pessoa consegue visualizar informações de outro usuário apenas alterando um identificador na URL, isso pode indicar uma falha de controle de acesso.
 
-**Conceito importante:** autenticação confirma *quem é* o usuário; autorização determina *o que ele pode acessar*.
+**Conceito importante:** autenticação confirma quem é o usuário; autorização determina o que ele pode acessar.
 
 ## Parte 2: vulnerabilidades da comunidade OWASP
 
@@ -64,10 +62,6 @@ O estudo ajuda a compreender que a segurança de aplicações não depende apena
 
 Na rotina de **Suporte de TI**, esse conhecimento ajuda a reconhecer relatos de acesso indevido e encaminhar incidentes corretamente. Em **IAM**, reforça a importância de permissões adequadas e revisões de acesso. Em **Cybersecurity**, contribui para entender riscos, controles preventivos e a diferença entre uma falha e sua exploração.
 
-## Limites do estudo
-
-Este repositório registra **respostas de pesquisa e aprendizado**, não testes executados em aplicações reais. Não há topologia de rede, configuração de dispositivos ou resultados de exploração a apresentar. As categorias correspondem à edição de **2021** do OWASP Top 10, utilizada no exercício, e não devem ser tratadas como uma classificação atualizada automaticamente.
-
 ## Referências
 
 - [OWASP Top 10](https://owasp.org/Top10/)
@@ -75,5 +69,5 @@ Este repositório registra **respostas de pesquisa e aprendizado**, não testes 
 - [OWASP Community](https://owasp.org/www-community/)
 - [Vulnerabilidades – OWASP Community](https://owasp.org/www-community/vulnerabilities/)
 - [Ataques – OWASP Community](https://owasp.org/www-community/attacks/)
-- Cisco Networking Academy, *Laboratório - Investigação do OWASP* (material didático utilizado como base da atividade).
+- Cisco Networking Academy, *Laboratório - Investigação do OWASP*
 
