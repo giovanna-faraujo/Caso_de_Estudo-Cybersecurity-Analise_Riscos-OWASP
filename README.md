@@ -4,7 +4,8 @@
 
 Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP**, da Cisco Networking Academy (NetAcad). A proposta é conhecer riscos de segurança em aplicações web, entender como vulnerabilidades podem ser exploradas e identificar medidas de prevenção.
 
-<img width="2752" height="1536" alt="Topologia" src="https://github.com/user-attachments/assets/b6227360-de01-42ae-ad58-14fadcaca658" />
+<img width="1536" height="1024" alt="Mapa Mental OWASP_ Segurança Web" src="https://github.com/user-attachments/assets/892f1877-b010-45dc-9f1e-deff3fcdac0a" />
+
 
 ---
 
