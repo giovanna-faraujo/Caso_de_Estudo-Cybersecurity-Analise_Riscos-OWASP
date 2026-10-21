@@ -1,4 +1,4 @@
-# Laboratório Cisco Networking Academy | Investigação do OWASP: riscos e segurança em aplicações web
+Investigação do OWASP: riscos e segurança em aplicações web
 
 ## Visão geral
 
@@ -13,6 +13,8 @@ Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP*
 - Identificar controles de acesso e medidas preventivas.
 - Relacionar os conceitos à atuação em Suporte de TI, IAM e Cybersecurity.
 
+---
+
 ## Parte 1: três categorias do OWASP Top 10 (2021)
 
 | Categoria | Descrição | Prevenção |
@@ -25,6 +27,8 @@ Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP*
 
 **Conceito importante:** autenticação confirma quem é o usuário; autorização determina o que ele pode acessar.
 
+---
+
 ## Parte 2: vulnerabilidades da comunidade OWASP
 
 | Vulnerabilidade | Descrição | Prevenção |
@@ -32,6 +36,8 @@ Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP*
 | **SQL Injection Vulnerability** | Entradas tratadas de forma insegura podem modificar a estrutura de consultas ao banco de dados. | Usar consultas parametrizadas, tratar entradas e limitar privilégios no banco. |
 | **Cross-Site Scripting (XSS)** | Uma aplicação permite que conteúdo não confiável seja interpretado como script no navegador de outros usuários. | Aplicar codificação de saída conforme o contexto, sanitizar HTML quando necessário e usar políticas de segurança de conteúdo como defesa adicional. |
 | **Insecure Direct Object Reference (IDOR)** | Falta de verificação de autorização permite acessar objetos ou dados de outros usuários. | Verificar a autorização em cada solicitação e restringir recursos ao usuário autorizado. |
+
+---
 
 ## Parte 3: técnicas de ataque
 
@@ -42,6 +48,8 @@ Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP*
 | **Brute Force Attack** (Força bruta) | São feitas muitas tentativas para descobrir credenciais ou conseguir autenticação. | MFA, limitação de tentativas e monitoramento de logins suspeitos. |
 
 **Diferença:** vulnerabilidade é uma fraqueza que pode existir no sistema; ataque é a tentativa de explorá-la. A exploração pode ou não resultar em impacto.
+
+---
 
 ## Fluxograma do processo de estudo
 
@@ -56,11 +64,15 @@ flowchart TD
     G --> H[Registrar síntese e referências]
 ```
 
+---
+
 ## Aprendizados e aplicação prática
 
 O estudo ajuda a compreender que a segurança de aplicações não depende apenas de senhas ou antivírus. Também exige verificações de autorização, proteção de dados e desenvolvimento seguro.
 
 Na rotina de **Suporte de TI**, esse conhecimento ajuda a reconhecer relatos de acesso indevido e encaminhar incidentes corretamente. Em **IAM**, reforça a importância de permissões adequadas e revisões de acesso. Em **Cybersecurity**, contribui para entender riscos, controles preventivos e a diferença entre uma falha e sua exploração.
+
+---
 
 ## Referências
 
