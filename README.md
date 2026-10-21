@@ -1,10 +1,10 @@
 # Investigação do OWASP: riscos e segurança em aplicações web
 
-## Visão geral
+## Resumo
 
 Este estudo foi desenvolvido a partir do laboratório **Investigação do OWASP**, da Cisco Networking Academy (NetAcad). A proposta é conhecer riscos de segurança em aplicações web, entender como vulnerabilidades podem ser exploradas e identificar medidas de prevenção.
 
-<img width="2040" height="1680" alt="mapa-mental-owasp" src="https://github.com/user-attachments/assets/fa31bda5-31ec-4df7-be5f-db7a60b8cab1" />
+<img width="2752" height="1536" alt="Topologia" src="https://github.com/user-attachments/assets/b6227360-de01-42ae-ad58-14fadcaca658" />
 
 ---
 
